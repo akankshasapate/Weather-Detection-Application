@@ -57,3 +57,24 @@ A Python-based GUI application that provides **real-time weather updates** and a
    ```bash
    git clone https://github.com/yourusername/weather-detection-app.git
    cd weather-detection-app
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Get your free API key from OpenWeatherMap and replace it in the script where required.
+4. Run the app:
+   ```bash
+   python main.py
+
+---
+
+## 📌 Requirements
+1. Python 3.7+
+
+2. Modules:
+      - tkinter
+      - requests
+      - geopy
+      - timezonefinder
+      - pytz
+      - Pillow
+      - datetime
